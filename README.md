@@ -1,7 +1,7 @@
 ## Start backend (localhost:8080)
 
 - cd ems-backend
-- mvn spring-boot-run
+- mvn spring-boot:run
 
 ## Install dependencies (node modules) in ems-frontend
 

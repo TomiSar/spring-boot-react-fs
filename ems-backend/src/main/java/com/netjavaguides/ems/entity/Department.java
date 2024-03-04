@@ -17,10 +17,13 @@ public class Department {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
+
     @Column(name = "department_name")
     private String departmentName;
+
     @Column (name = "department_description")
     private String departmentDescription;
-    @Column (name = "email_address", nullable = false, unique = true)
+
+    @Column (name = "email_id", nullable = false, unique = true)
     private String email;
 }
