@@ -35,8 +35,7 @@ public class DepartmentServiceImpl implements DepartmentService {
     @Override
     public List<DepartmentDto> getAllDepartments() {
         List<Department> departments = departmentRepository.findAll();
-        return departments.stream().map(department -> DepartmentMapper.mapToDepartmentDto(department))
-                .collect(Collectors.toList());
+         return departments.stream().map(DepartmentMapper::mapToDepartmentDto).collect(Collectors.toList());
     }
 
     @Override
@@ -47,6 +46,7 @@ public class DepartmentServiceImpl implements DepartmentService {
 
         department.setDepartmentName(updatedDepartment.getDepartmentName());
         department.setDepartmentDescription(updatedDepartment.getDepartmentDescription());
+        department.setEmail(updatedDepartment.getEmail());
         Department savedDepartment = departmentRepository.save(department);
 
         return DepartmentMapper.mapToDepartmentDto(savedDepartment);

@@ -7,6 +7,7 @@ import java.util.List;
 
 @CrossOrigin(origins = "*")
 public interface EmployeeService {
+
     EmployeeDto createEmployee(EmployeeDto employeeDto);
 
     EmployeeDto getEmployeeById(Long employeeId);

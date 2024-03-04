@@ -1,11 +1,11 @@
-import './App.css';
-import { BrowserRouter, Route, Routes } from 'react-router-dom';
-import HeaderComponent from './components/HeaderComponent';
-import FooterComponent from './components/FooterComponent';
-import ListEmployeeComponent from './components/ListEmployeeComponent ';
-import EmployeeComponent from './components/EmployeeComponent';
-import ListDepartmentComponent from './components/ListDepartmentComponent';
-import DepartmentComponent from './components/DepartmentComponent';
+import "./App.css";
+import { BrowserRouter, Route, Routes } from "react-router-dom";
+import HeaderComponent from "./components/HeaderComponent";
+import FooterComponent from "./components/FooterComponent";
+import ListEmployeeComponent from "./components/ListEmployeeComponent ";
+import EmployeeComponent from "./components/EmployeeComponent";
+import ListDepartmentComponent from "./components/ListDepartmentComponent";
+import DepartmentComponent from "./components/DepartmentComponent";
 
 function App() {
   return (

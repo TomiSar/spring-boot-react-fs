@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import { useState, useEffect } from 'react';
 import {
   getAllDepartments,
   deleteDepartment,
@@ -7,7 +7,6 @@ import { Link, useNavigate } from 'react-router-dom';
 
 const ListDepartmentComponent = () => {
   const [departments, setDepartments] = useState([]);
-
   const navigator = useNavigate();
 
   useEffect(() => {
@@ -52,6 +51,7 @@ const ListDepartmentComponent = () => {
             <th>Department Id</th>
             <th>Department Name</th>
             <th>Department Description</th>
+            <th>Department Email</th>
             <th>Actions</th>
           </tr>
         </thead>
@@ -61,6 +61,7 @@ const ListDepartmentComponent = () => {
               <td>{department.id}</td>
               <td>{department.departmentName}</td>
               <td>{department.departmentDescription}</td>
+              <td>{department.email}</td>
               <td>
                 <button
                   className='btn btn-primary'
