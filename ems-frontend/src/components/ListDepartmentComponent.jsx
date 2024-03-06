@@ -30,6 +30,7 @@ const ListDepartmentComponent = () => {
 
   function removeDepartment(id) {
     deleteDepartment(id)
+      // eslint-disable-next-line no-unused-vars
       .then((response) => {
         // console.log(response.data);
         listOfDepartments();

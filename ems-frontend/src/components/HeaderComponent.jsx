@@ -5,10 +5,9 @@ const HeaderComponent = () => {
     <div>
       <header>
         <nav className='navbar navbar-expand-lg navbar-dark bg-dark'>
-          <a className='navbar-brand' href='https://www.javaguides.net/'>
+          <h4 className='navbar-brand px-3 text-info'>
             Employee Management System
-          </a>
-
+          </h4>
           <div className='collapse navbar-collapse' id='navbarNav'>
             <ul className='navbar-nav'>
               <li className='nav-item'>

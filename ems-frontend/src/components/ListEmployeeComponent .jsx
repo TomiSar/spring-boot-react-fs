@@ -31,6 +31,7 @@ const ListEmployeeComponent = () => {
     console.log(id);
 
     deleteEmployee(id)
+      // eslint-disable-next-line no-unused-vars
       .then((response) => {
         getAllEmployees();
       })
