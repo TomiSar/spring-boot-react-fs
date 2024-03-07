@@ -1,34 +1,20 @@
-## Start backend (localhost:8080)
+# FULL-STACK Developing Web Apps: Java, Spring Boot 3, Spring Data JPA, Spring Security, JWT, JavaScript, React JS & MySQL
 
-- cd ems-backend
-- mvn spring-boot:run
+# Stack
 
-## Install dependencies (node modules) in ems-frontend
+- Spring Boot 3
+- Java (version 17)
+- MySQL
+- ReactJS
+- JavaScript
+- CSS
+- Postman
 
-- ems-frontend
-- npm install
+## Back-end Development
 
-## Start frontend (localhost:3000)
+- [Spring Boot](https://spring.io/projects/spring-boot)
+- [Spring Initializr](https://start.spring.io/)
 
-- cd frontend
-- npm run dev
+## Front-end Development
 
-## Create local database (MySQL)
-
-- CREATE DATABASE management_system;
-
-## Project API endpoints (Employees)
-
-- http://localhost:8080/api/employees (POST new employee)
-- http://localhost:8080/api/employees/id (GET employee byId)
-- http://localhost:8080/api/employees (GET all employees)
-- http://localhost:8080/api/employees/id (UPDATE employee byId)
-- http://localhost:8080/api/employees/id (DELETE employee byId)
-
-## Project API endpoints (Departments)
-
-- http://localhost:8080/api/departments (POST new department)
-- http://localhost:8080/api/departments/id (GET department byId)
-- http://localhost:8080/api/departments (GET all departments)
-- http://localhost:8080/api/departments/id (UPDATE department byId)
-- http://localhost:8080/api/departments/id (DELETE department byId)
+- [ReactJS](https://react.dev/)
