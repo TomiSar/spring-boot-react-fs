@@ -17,10 +17,14 @@
 
 - CREATE DATABASE todo_management;
 
+## JWT token
+
+- https://jwt.io/
 
 ## Tools for password Encode/Decode
-https://www.base64decode.org/
-https://www.base64encode.org/
+
+- https://www.base64decode.org/
+- https://www.base64encode.org/
 
 ## Project API endpoints (Todo)
 
