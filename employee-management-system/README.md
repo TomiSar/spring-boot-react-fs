@@ -5,7 +5,7 @@
 
 ## Install dependencies (node modules) in ems-frontend
 
-- ems-frontend
+- cd ems-frontend
 - npm install
 
 ## Start frontend (localhost:3000)
